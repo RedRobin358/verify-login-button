@@ -21,14 +21,15 @@ namespace Selinium
 
         }
         [SetUp]
-        public void a()
+        public void Initiator()
         {
             driver.Navigate().GoToUrl("https://sr-rs.facebook.com/");
             System.Threading.Thread.Sleep(5000);
             Console.WriteLine("Opened URL");
         }
+
         [Test]
-        public void b()
+        public void Executer()
         {
             //seleniumTestMetod.dropDown(driver, "", "", "");
 
@@ -45,10 +46,11 @@ namespace Selinium
         }
 
         //[TearDown]
-        //public void c()
+        //public void Closer()
         //{
         //    driver.Close();
         //    Console.WriteLine("finished test");
         //}
     }
+
 }
