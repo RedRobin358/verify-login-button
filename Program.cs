@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
@@ -37,11 +37,11 @@ namespace Selinium
 
             seleniumTestMetod.EnterText(driver, "pass", "Aca", "Name");
 
-            seleniumTestMetod.clickButton(driver, "login", "Name");
+            seleniumTestMetod.ClickButton(driver, "login", "Name");
 
 
 
-            Console.WriteLine("Tested ddm,insert Text,lick button");
+            Console.WriteLine("Insert Text,Click button");
 
         }
 
