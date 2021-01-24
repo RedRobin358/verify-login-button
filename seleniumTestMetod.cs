@@ -1,4 +1,4 @@
-﻿using OpenQA.Selenium;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using OpenQA.Selenium.Support.UI;
 
 namespace Selinium
 {
-    class seleniumTestMetod
+    class SeleniumTestMetod
     {
         public static void EnterText(IWebDriver driver, string element, string value, string elementtype)
         {
@@ -24,7 +24,7 @@ namespace Selinium
             }
 
         }
-        public static void clickButton(IWebDriver driver, string element, string elementtype)
+        public static void ClickButton(IWebDriver driver, string element, string elementtype)
         {
             if (elementtype == "Id")
             {
@@ -39,7 +39,7 @@ namespace Selinium
             
 
         }
-        public static void dropDown(IWebDriver driver, string element, string value, string elementtype)
+        public static void DropDown(IWebDriver driver, string element, string value, string elementtype)
         {
             if (elementtype == "Id")
             {
